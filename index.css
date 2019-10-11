@@ -1,0 +1,24 @@
+body {
+    font: arial;
+    color: rgb(17, 17, 17);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    background: linear-gradient(to right, red, yellow);
+}
+
+h1 {}
+
+h3 {}
+input[type="color" i] {
+    -webkit-appearance: none;
+    width: 3em;
+    height: 3em;
+    background-color: buttonface;
+    cursor: default;
+    border-width: 0px;
+    border-style: none;
+    border-color:aliceblue;
+    border-image: none;
+    padding: 0px 0px;
+}

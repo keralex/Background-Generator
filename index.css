@@ -52,3 +52,21 @@ input[type="color"i] {
     border-image: none;
     padding: 0px 0px;
 }
+
+/* mediaqueries */
+@media screen and (max-width: 450px) {
+    h2{
+        font-size: 1em;
+    }
+    h3{
+        font-size: 0.8em;
+    }
+    .flex-box{
+        padding: 0.3em;
+    }
+    .tittle{
+        text-align: left;
+
+    }
+
+}

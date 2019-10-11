@@ -1,16 +1,46 @@
 body {
-    font: arial;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
     color: rgb(17, 17, 17);
     text-align: center;
-    text-transform: uppercase;
+    text-transform: uppercase;  
     letter-spacing: .5em;
     background: linear-gradient(to right, red, yellow);
 }
 
-h1 {}
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5em;
+    padding-left: 5em;
+}
 
-h3 {}
-input[type="color" i] {
+.right-box {
+    align-self: center;
+    
+}
+.flex-box-100{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    
+    
+}
+.white-box {
+    background-color: rgb(255, 255, 255);
+}
+.white-box-shadow {
+    background-color: rgba(255, 255, 255, 0.466);
+    width: 100%;
+}
+
+
+
+input[type="color"i] {
+    float: right;
     -webkit-appearance: none;
     width: 3em;
     height: 3em;
@@ -18,7 +48,7 @@ input[type="color" i] {
     cursor: default;
     border-width: 0px;
     border-style: none;
-    border-color:aliceblue;
+    border-color: aliceblue;
     border-image: none;
     padding: 0px 0px;
 }
